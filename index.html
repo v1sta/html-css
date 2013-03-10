@@ -12,59 +12,16 @@
 
 <body>
 
-<form action="#" method="foo">
+<form>
 
-<input type="text" name="sample_text_field">
-
-<textarea name="sample_textarea">Sample text area</textarea>
-
-<input type="radio" name="day" value="Friday" checked>Friday
-<input type="radio" name="day" value="Saturday">Saturday
-<input type="radio" name="day" value="Sunday">Sunday
-
-<input type="checkbox" name="day" value="Friday" checked> Friday
-<input type="checkbox" name="day" value="Saturday"> Saturday
-<input type="checkbox" name="day" value="Sunday"> Sunday
-
-
-<select name="day">
-	<option value="Friday">Friday</option>
-	<option selected value="Saturday">Saturday</option>
-	<option value="Sunday">Sunday</option>
-</select>
-
-
-<select name="day" multiple>
-	<option value="Friday">Friday</option>
-	<option value="Saturday">Saturday</option>
-	<option value="Sunday">Sunday</option>
-</select>
-
-
-<input type="submit" name="submit" value="Submit Form">
-
-<input type="hidden" name="tracking_code" value="abc_123">
-
-<input type="file" name="file">
-
-
-<label for="username">Username</label>
-<input type="text" name="username" id="username">
-
-<label><input type="radio" name="day" value="Friday" checked>Friday</label>
-<label><input type="radio" name="day" value="Saturday">Saturday</label>
-<label><input type="radio" name="day" value="Sunday">Sunday</label>
-
-<fieldset><legend>Login</legend><label for="Username">Username</label>
-<input type="text" name="Username" id="Username">
-<label for="Password">Password</label>
-<input type="text" name="Password" id="Password"></fieldset>
-
-<label for="username">Username</label>
-<input type="text" name="username" id="username" disabled>
-
-
-
+	<label for="login_username">Username</label>
+	<input type="text" name="login_username" id="login_username" required placeholder="Type your username here...">
+	<label for="login_password">Password</label>
+	<input type="password" name="login_password" id="login_password" required placeholder="Type your password here...">
+	<fieldset>
+		<input type="submit" name="login_submit" id="login_submit" value="Login">
+<label>		<input type="checkbox" name="login_remember" id="login_remember">Stay signed in</input>
+	</label>	</fieldset>
 
 
 
