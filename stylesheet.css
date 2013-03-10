@@ -1,0 +1,102 @@
+table {
+
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td {
+	border: 1px solid #c6c9cc;
+	vertical-align: top;
+}
+
+th {
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+th.qty, th.price {
+
+	text-align: center;
+}
+
+tbody td.item {
+	color: #404853;
+	font-weight: bold;
+}
+
+tbody td.stock, tbody td.qty, tbody td.price {
+
+	vertical-align: middle;
+
+}
+
+tbody td.stock, tbody td.qty {
+
+	text-align: center;
+}
+
+
+tbody td.price {
+
+	text-align:right;
+
+}
+
+
+tfoot td{
+
+	text-align: right;
+}
+
+tfoot tr.sub td, tfoot tr.tax td {
+
+	color: #8c8c8c;
+	font-size: 12px;
+}
+tfoot tr.total td {
+
+	color: #404853;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+.in {
+
+	color: #00b515;
+}
+
+.out {
+
+	color: #b50000;
+}
+
+span {
+
+	color: #8c8c8c;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+
+}
+
+th {
+
+	background: #404853;
+	background: linear-gradient(#687587, #404853);
+	color: #fff;
+}
+
+tbody tr:nth-child(even) td {
+
+	background: #e8eae9;
+	background: linear-gradient(#f7faf9, #e8eae9);
+
+}
+
+tfoot tr.total td {
+
+	background: #e8eae9;
+	background: linear-gradient(#f7faf9, #e8eae9);
+	
+}
